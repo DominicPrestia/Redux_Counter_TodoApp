@@ -6,7 +6,7 @@ import { clearTaskList } from '../redux/actions/todoActions'
 
 const TodoList = () => {
 
-  const taskList = useSelector((state) => state.todos)
+  const taskList = useSelector((state) => state.todoReducer.todos)
   const dispatch = useDispatch();
 
   console.log(taskList)

@@ -17,4 +17,3 @@ export const counterReducer = (state=initialState, action) => {
     }
 }
 
-// export default counterReducer;
